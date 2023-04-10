@@ -1,0 +1,85 @@
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:16:	LongVariable:	LongVariable: Avoid excessively long variable names like coleccionAlquileres
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:19:	AssignmentToNonFinalStatic:	AssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:25:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'nuevaColeccion' could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cliente' is not assigned and could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'coleccionParaCliente' could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:34:	LongVariable:	LongVariable: Avoid excessively long variable names like coleccionParaCliente
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:35:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:35:	ForLoopsMustUseBraces:	ForLoopsMustUseBraces: Avoid using for statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'alquilercliente' could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:36:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:37:	UnnecessaryCast:	UnnecessaryCast: Avoid unnecessary casts
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:44:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'turismo' is not assigned and could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'coleccionParaTurismo' could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:46:	LongVariable:	LongVariable: Avoid excessively long variable names like coleccionParaTurismo
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:47:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:47:	ForLoopsMustUseBraces:	ForLoopsMustUseBraces: Avoid using for statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:47:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'alquilerturismo' could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:48:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:49:	UnnecessaryCast:	UnnecessaryCast: Avoid unnecessary casts
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:53:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:61:	CyclomaticComplexity:	CyclomaticComplexity: The method 'comprobarAlquiler(Cliente, Turismo, LocalDate)' has a cyclomatic complexity of 15.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cliente' is not assigned and could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fechaAlquiler' is not assigned and could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'turismo' is not assigned and could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:61:	UnusedPrivateMethod:	UnusedPrivateMethod: Avoid unused private methods such as 'comprobarAlquiler(Cliente,Turismo,LocalDate)'.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:62:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:63:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:63:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:64:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:65:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:65:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:67:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'alq' could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:69:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:71:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:76:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'alq' could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:78:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:80:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:89:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:89:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'alquiler' is not assigned and could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:92:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:93:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:95:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:95:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:95:	IfElseStmtsMustUseBraces:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:97:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:97:	IfElseStmtsMustUseBraces:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:101:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:101:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'alquiler' is not assigned and could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:101:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fechaDevolucion' is not assigned and could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:102:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:103:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:103:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:105:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:107:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:107:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:109:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:110:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:118:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:118:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'alquiler' is not assigned and could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:120:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'indice' (lines '120'-'127').
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:121:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:122:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:122:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:123:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:124:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:124:	IfElseStmtsMustUseBraces:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:124:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:126:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:126:	IfElseStmtsMustUseBraces:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:131:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:131:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'alquiler' is not assigned and could be declared final
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:133:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'indice' (lines '133'-'140').
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:134:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:135:	AvoidThrowingNullPointerException:	AvoidThrowingNullPointerException: Avoid throwing null pointer exceptions.
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:135:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:137:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:137:	IfElseStmtsMustUseBraces:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:139:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/org/iesalandalus/programacion/alquilervehiculos/modelo/negocio/Alquileres.java:139:	IfElseStmtsMustUseBraces:	IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
